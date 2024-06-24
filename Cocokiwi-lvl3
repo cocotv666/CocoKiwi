@@ -158,9 +158,9 @@ function GuiLibrary.CreateWindow(name)
     local CocokiwiButton = Instance.new("TextButton")
     CocokiwiButton.Name = "CocokiwiButton"
     CocokiwiButton.Parent = ScreenGui
-    CocokiwiButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    CocokiwiButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     CocokiwiButton.BackgroundTransparency = 0.5
-    CocokiwiButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+    CocokiwiButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
     CocokiwiButton.BorderSizePixel = 0
     CocokiwiButton.Position = UDim2.new(0.95, 0, 0.3, 0)
     CocokiwiButton.Size = UDim2.new(0, 35, 0, 35)
@@ -178,7 +178,7 @@ function GuiLibrary.CreateWindow(name)
     ButtonLogo.BorderSizePixel = 0
     ButtonLogo.Position = UDim2.new(0.1, 0, 0.1, 0)
     ButtonLogo.Size = UDim2.new(0.8, 0, 0.8, 0)
-    ButtonLogo.Image = "rbxassetid://14483298187"
+    ButtonLogo.Image = "rbxassetid://18190744781"
 
     CocokiwiButton.MouseButton1Down:Connect(toggleAllWindows)
 
